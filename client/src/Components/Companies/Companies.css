@@ -3,6 +3,9 @@
      gap: 1rem;
  }
 
+ .c-wrapper{
+    background-color: aliceblue;
+ }
  .c-container>img {
      width: 9rem;
  }

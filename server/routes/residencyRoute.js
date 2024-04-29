@@ -1,9 +1,9 @@
 import express from "express";
-import { createResidency, getAllresidencies, getresidency } from "../controllers/residencyCntrl.js";
+import { createResidency, getAllResidencies, getResidency } from "../controllers/residencyCntrl.js";
 const router = express.Router();
 
 router.post("/create", createResidency);
-router.get("/Allresid", getAllresidencies);
-router.get("/:id", getresidency);
+router.get("/allresd", getAllResidencies);
+router.get("/:id", getResidency);
 
 export { router as residencyRoute };
